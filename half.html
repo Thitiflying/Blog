@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Web By KTS M.6</title>
+</head>
+<style>
+body {
+        font-family: sans-serif;
+        background: linear-gradient(#D4A90A);
+        background-size: 400% 400%;
+        margin: 0;
+        padding: 0;
+    }
+    .some {
+      border: white;
+    }
+    .header{
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      max-width: 2000px;
+      padding-top: 0;
+    }
+    
+    .jud {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+        margin-top: 100px;
+        margin-left: 180px;
+        margin-right: 200px;
+        justify-content: center;
+        
+    }
+
+    .blog {
+    background: white;
+    border-radius: 20px;
+    flex: 0 0 300px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease; 
+    position: relative; 
+    overflow: hidden;   
+   
+    }
+
+    .blog:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    }
+    .blog img {
+    max-width: 100%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    }
+
+
+    .blog h1 {
+        font-size: medium;
+        word-break: keep-all;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .blog p {        
+        font-size: medium;
+        word-break: keep-all;
+        text-align: center;
+        line-height: 0.5;
+    }
+
+    .blog a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      height: 100%;
+
+    }
+
+    .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 20px;
+}
+
+    
+</style>
+<body>
+  <div class="some"></div>
+  <div class="header"data-aos="fade-down">
+    <img src="header (1).png">
+  </div>
+    <div class="jud">
+     <div class="blog"data-aos="fade-down">  
+      <a href="https://nantawatkt.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="Blog2_0.png">
+      <h1>น้ำพุร้อน </h1>
+      <p>นายนรวิชญ์ ศรีทอง</p>
+      <p>นายนันทวัฒน์ ลูกบัว</p>
+      </a>
+    </div>
+
+         <div class="blog"data-aos="fade-down">  
+      <a href="https://amam080450.wixstudio.com/by-mtm-7?authuser=0"target="_blank">
+      <img src="Blog1_0.png">
+      <h1> หลังโต๊ะ คาเฟ่</h1>
+      <p>นางสาวณัชกานต์ ช่วยรอด </p>
+      <p>นางสาวนภสร ขนานใต้ </p>
+      </a>
+    </div>
+
+    <div class="blog"data-aos="fade-down">  
+      <a href="https://panpan50.blogspot.com/2025/08/yak-space.html?authuser=0"target="_blank">
+      <img src="web3.png">
+      <h1> YAK SPACE</h1>
+      <p>นาย ปัณวัฒน์ สุทธิเกิด </p>
+      <p>นางสาว นันทกาญจน์ ปานชู </p>
+      <p>นางสาว สโรชา สามารถ </p>
+      </a>
+    </div>
+
+      <div class="blog"data-aos="fade-down">  
+      <a href="https://s189415.wixsite.com/talimmy?authuser=0"target="_blank">
+      <img src="web5.png">
+      <h1> หลังโต๊ะ คาเฟ่</h1>
+      <p>นางสาวสุภารัตน์ หวันหยี</p>
+      <p>นางสาววรวรรณ ฟองเกิด</p>
+      </a>
+    </div>      
+
+    <div class="blog"data-aos="fade-down">  
+      <a href="https://nueafattha.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="web4.png">
+      <h1>น้ำพุร้อนเค็มกระบี่</h1>
+      <p>นายพัฒนพล ราชพารัมย์</p>
+      <p>นายกรประเสริฐ จิตเรือ</p>
+      </a>
+    </div>   
+
+    <div class="blog"data-aos="fade-down">  
+      <a href="https://fanook23.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="web7.png">
+      <h1>นํ้าพุร้อนเค็ม</h1>
+      <p>นางสาววาสินี รอดบุญ</p>
+      <p>นางสาวกัญญารัตน์ สุดจิต</p>
+      </a>
+    </div>   
+
+    <div class="blog"data-aos="fade-down">  
+      <a href=""target="_blank">
+      <img src="web8.png">
+      <h1>น้ำพุร้อนเค็ม</h1>
+      <p>นางสาวยุวดี เกาะกลาง</p>
+      <p>นางสาวชิดชนก เส็งย่อง</p>
+      </a>
+    </div>  
+
+    <div class="blog"data-aos="fade-down">  
+      <a href="https://s19046kts.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="web9.png">
+      <h1>พักกายพักใจที่นํ้าตกร้อน</h1>
+      <p>นางสาวชื่นณัฐฐา แตงโม</p>
+      <p>นางสาวสุวรรประภา ชุมเศียร</p>
+      </a>
+    </div> 
+
+    <div class="blog"data-aos="fade-down">  
+      <a href="https://kaemjira05.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="web 10.png">
+      <h1>น้ำตกหินเพิง</h1>
+      <p>นางสาวรินนา  ผลเงาะ</p>
+      <p>นางสาวเขมร์จิรา  สอนศรี</p>
+      </a>
+    </div>
+
+    <div class="blog"data-aos="fade-down">  
+      <a href="https://s1901437.wixsite.com/my-site-1?authuser=0"target="_blank">
+      <img src="web6.png">
+      <h1>อาหยงกั้ง หมาล่า</h1>
+      <p>นางสาวเนรมิตร คิดสวน</p>
+      <p>นางสาวพิชญธิดา พิพิธกุล</p>
+      </a>
+    </div>
+
+      <div class="blog"data-aos="fade-down">  
+      <a href="https://pawarisah.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="web11.png">
+      <h1>คาเฟ่ญี่ปุ่น ดินนาโนะ</h1>
+      <p>นางสาวรัตนวดี พลภักดี</p>
+      <p>นางสาวปวริศา กิ่งแสง </p>
+      </a>
+    </div>
+
+      <div class="blog"data-aos="fade-down">  
+      <a href="https://pannawitainaleng.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
+      <img src="web12.png">
+      <h1>สระมรกต กระบี่</h1>
+      <p>นายปัญณวิชญ์  เอี่ยนเล่ง</p>
+      <p>นางสาวณิชานันท์  กาลมุล</p>
+      </a>
+    </div>
+    </div>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+      AOS.init();
+      </script>
+</body>
