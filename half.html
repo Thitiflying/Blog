@@ -6,6 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playpen+Sans+Thai:wght@100..800&display=swap" rel="stylesheet">
   <title>Web By KTS M.6</title>
 </head>
 <style>
@@ -16,11 +20,8 @@ body {
         margin: 0;
         padding: 0;
     }
-    .some {
-      border: white;
-    }
     .header{
-      height: 400px;
+      height: 396px;
       display: flex;
       justify-content: center;
       max-width: 2000px;
@@ -37,7 +38,6 @@ body {
         margin-left: 180px;
         margin-right: 200px;
         justify-content: center;
-        
     }
 
     .blog {
@@ -49,7 +49,7 @@ body {
     transition: all 0.3s ease; 
     position: relative; 
     overflow: hidden;   
-   
+    font-family: 'Bebas Neue', sans-serif
     }
 
     .blog:hover {
@@ -69,6 +69,8 @@ body {
         word-break: keep-all;
         text-align: center;
         line-height: 1.5;
+        font-size: large;
+        font-family: "Kanit", sans-serif;
     }
 
     .blog p {        
@@ -76,6 +78,7 @@ body {
         word-break: keep-all;
         text-align: center;
         line-height: 0.5;
+        font-family: "Kanit", sans-serif;
     }
 
     .blog a {
@@ -83,7 +86,6 @@ body {
       color: black;
       display: block;
       height: 100%;
-
     }
 
     .overlay {
@@ -102,21 +104,57 @@ body {
   transition: opacity 0.3s ease;
   border-radius: 20px;
 }
+.blog h2 {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+}
 
     
-</style>
+</style>   
+
 <body>
   <div class="some"></div>
   <div class="header"data-aos="fade-down">
-    <img src="header (1).png">
+    <img src="header (1).png"> 
   </div>
     <div class="jud">
+     <div class="blog"data-aos="fade-down"> 
+      <h2>🛣️แนะนำ!!!🛣️</h2> 
+      <a href="https://s188320.wixsite.com/mysite-1?authuser=0"target="_blank">
+      <img src="Mulberry.png">
+      <h1>Mulberry</h1>
+      <p>นายณรงค์ฤทธิ์ ทับไทร ม.6/3</p>
+      <p>นายวีรวัฒน์ ทองมูณี ม.6/3</p>
+      </a>
+    </div>
+
+     <div class="blog"data-aos="fade-down"> 
+      <h2>🛣️แนะนำ!!!🛣️</h2> 
+      <a href="https://s18907.wixsite.com/mysite?authuser=0"target="_blank">
+      <img src="Hot spring.png">
+      <h1>Hot string</h1>
+      <p>นายฐิติวัชร์ สงสวัสดิ์ ม.6/3</p>
+      <p>นายเทวินทร์ ร่มเย็น ม.6/3</p>
+      </a>
+    </div>
+
+     <div class="blog"data-aos="fade-down"> 
+      <h2>🛣️แนะนำ!!!🛣️</h2> 
+      <a href="https://x84511.wixsite.com/jtb777"target="_blank">
+      <img src="Ex.png">
+      <h1>4 สถานที่ ที่ต้องไปสักครั้งในคลองท่อม!</h1>
+      <p>นายกฤติน ไชยสน ม.6/1</p>
+      <p>นายศุภณัฐ โชโต ม.6/1</p>
+      <p>นายเสกสรรค์ ใหม่สวัสดิ์ ม.6/1</p>
+      </a>
+    </div>
+
      <div class="blog"data-aos="fade-down">  
       <a href="https://nantawatkt.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
       <img src="Blog2_0.png">
-      <h1>น้ำพุร้อน </h1>
-      <p>นายนรวิชญ์ ศรีทอง</p>
-      <p>นายนันทวัฒน์ ลูกบัว</p>
+      <h1>น้ำพุร้อน</h1>
+      <p>นายนรวิชญ์ ศรีทอง ม.6/2</p>
+      <p>นายนันทวัฒน์ ลูกบัว ม.6/2</p>
       </a>
     </div>
 
@@ -124,8 +162,8 @@ body {
       <a href="https://amam080450.wixstudio.com/by-mtm-7?authuser=0"target="_blank">
       <img src="Blog1_0.png">
       <h1> หลังโต๊ะ คาเฟ่</h1>
-      <p>นางสาวณัชกานต์ ช่วยรอด </p>
-      <p>นางสาวนภสร ขนานใต้ </p>
+      <p>นางสาวณัชกานต์ ช่วยรอด ม.6/1</p>
+      <p>นางสาวนภสร ขนานใต้ ม.6/1</p>
       </a>
     </div>
 
@@ -133,9 +171,9 @@ body {
       <a href="https://panpan50.blogspot.com/2025/08/yak-space.html?authuser=0"target="_blank">
       <img src="web3.png">
       <h1> YAK SPACE</h1>
-      <p>นาย ปัณวัฒน์ สุทธิเกิด </p>
-      <p>นางสาว นันทกาญจน์ ปานชู </p>
-      <p>นางสาว สโรชา สามารถ </p>
+      <p>นาย ปัณวัฒน์ สุทธิเกิด ม.6/2</p>
+      <p>นางสาว นันทกาญจน์ ปานชู ม.6/2</p>
+      <p>นางสาว สโรชา สามารถ ม.6/2</p>
       </a>
     </div>
 
@@ -143,8 +181,8 @@ body {
       <a href="https://s189415.wixsite.com/talimmy?authuser=0"target="_blank">
       <img src="web5.png">
       <h1> หลังโต๊ะ คาเฟ่</h1>
-      <p>นางสาวสุภารัตน์ หวันหยี</p>
-      <p>นางสาววรวรรณ ฟองเกิด</p>
+      <p>นางสาวสุภารัตน์ หวันหยี ม.6/4</p>
+      <p>นางสาววรวรรณ ฟองเกิด ม.6/4</p>
       </a>
     </div>      
 
@@ -152,8 +190,8 @@ body {
       <a href="https://nueafattha.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
       <img src="web4.png">
       <h1>น้ำพุร้อนเค็มกระบี่</h1>
-      <p>นายพัฒนพล ราชพารัมย์</p>
-      <p>นายกรประเสริฐ จิตเรือ</p>
+      <p>นายพัฒนพล ราชพารัมย์ ม.6/4</p>
+      <p>นายกรประเสริฐ จิตเรือ ม.6/4</p>
       </a>
     </div>   
 
@@ -161,8 +199,8 @@ body {
       <a href="https://fanook23.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
       <img src="web7.png">
       <h1>นํ้าพุร้อนเค็ม</h1>
-      <p>นางสาววาสินี รอดบุญ</p>
-      <p>นางสาวกัญญารัตน์ สุดจิต</p>
+      <p>นางสาววาสินี รอดบุญ ม.6/3</p>
+      <p>นางสาวกัญญารัตน์ สุดจิต ม.6/3</p>
       </a>
     </div>   
 
@@ -179,8 +217,8 @@ body {
       <a href="https://s19046kts.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
       <img src="web9.png">
       <h1>พักกายพักใจที่นํ้าตกร้อน</h1>
-      <p>นางสาวชื่นณัฐฐา แตงโม</p>
-      <p>นางสาวสุวรรประภา ชุมเศียร</p>
+      <p>นางสาวชื่นณัฐฐา แตงโม ม.6/6</p>
+      <p>นางสาวสุวรรประภา ชุมเศียร ม.6/6</p>
       </a>
     </div> 
 
@@ -188,8 +226,8 @@ body {
       <a href="https://kaemjira05.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
       <img src="web 10.png">
       <h1>น้ำตกหินเพิง</h1>
-      <p>นางสาวรินนา  ผลเงาะ</p>
-      <p>นางสาวเขมร์จิรา  สอนศรี</p>
+      <p>นางสาวรินนา ผลเงาะ ม.6/7</p>
+      <p>นางสาวเขมร์จิรา สอนศรี ม.6/7</p>
       </a>
     </div>
 
@@ -215,8 +253,8 @@ body {
       <a href="https://pannawitainaleng.blogspot.com/2025/08/blog-post.html?authuser=0"target="_blank">
       <img src="web12.png">
       <h1>สระมรกต กระบี่</h1>
-      <p>นายปัญณวิชญ์  เอี่ยนเล่ง</p>
-      <p>นางสาวณิชานันท์  กาลมุล</p>
+      <p>นายปัญณวิชญ์  เอี่ยนเล่ง ม.6/8</p>
+      <p>นางสาวณิชานันท์  กาลมุล ม.6/8</p>
       </a>
     </div>
     </div>
