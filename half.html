@@ -21,7 +21,7 @@ body {
         padding: 0;
     }
     .header{
-      height: 396px;
+      height: 1014px;
       display: flex;
       justify-content: center;
       max-width: 2000px;
@@ -56,6 +56,7 @@ body {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
     background-color: aliceblue;
+    
     }
     .blog img {
     max-width: 100%;
@@ -85,7 +86,51 @@ body {
       text-decoration: none;
       color: black;
       display: block;
-      height: 100%;
+    }
+
+
+
+    .allblog {
+    grid-column: span 3;
+    background: white;
+    border-radius: 20px;
+    flex: 0 0 300px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: all 0.3s ease; 
+    position: relative; 
+    overflow: hidden;   
+    font-family: 'Bebas Neue', sans-serif
+    }
+
+    .allblog:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    background-color: aliceblue;
+    }
+
+    .allblog h1 {
+        font-size: medium;
+        word-break: keep-all;
+        text-align: center;
+        line-height: 1.5;
+        font-size: xx-large;
+        font-family: "Kanit", sans-serif;
+    }
+
+    .allblog p {        
+        font-size: medium;
+        word-break: keep-all;
+        text-align: center;
+        line-height: 0.5;
+        font-family: "Kanit", sans-serif;
+    }
+
+    .allblog a {
+      text-decoration: none;
+      color: black;
+      display: block;
+    
     }
 
     .overlay {
@@ -109,13 +154,20 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
-    
+.footer{
+  background-color: #222;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
 </style>   
 
 <body>
   <div class="some"></div>
   <div class="header"data-aos="fade-down">
-    <img src="header (1).png"> 
+    <img src="Def.png"> 
   </div>
     <div class="jud">
      <div class="blog"data-aos="fade-down"> 
@@ -257,9 +309,28 @@ body {
       <p>นางสาวณิชานันท์  กาลมุล ม.6/8</p>
       </a>
     </div>
+
+    <div class="allblog"data-aos="fade-down">  
+      <a href="https://drive.google.com/drive/folders/1-LqO9UBlxI4wzXl_wtxLWLWmDcvSmhj7"target="_blank">
+      <img src="">
+      <h1>ผลงานนักเรียนระดับชั้น ม.1-ม.5</h1>
+      </a>
+    </div>   
+
     </div>
+
+
+
+    <footer class="footer">
+      <div class="left">
+        <h4></h4>
+      </div>
+    </footer>
+
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script>
       AOS.init();
       </script>
 </body>
+
+   
